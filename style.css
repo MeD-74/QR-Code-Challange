@@ -1,0 +1,29 @@
+body {
+  background-color: #d6e2f0;
+  font-family: Outfit;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: white;
+  padding: 30px;
+  border-radius: 25px;
+}
+.card .img img {
+  border-radius: 25px;
+}
+.card h1 {
+  color: #1f3251;
+  font-weight: bold;
+  margin: 20px 0px;
+}
+.card p {
+  font-size: 15px;
+  color: #68778d;
+  margin: 20px 0px;
+}
+.card .text {
+  text-align: center;
+}
