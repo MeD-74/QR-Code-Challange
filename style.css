@@ -10,19 +10,28 @@ body {
   background-color: white;
   padding: 30px;
   border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .card .img img {
   border-radius: 25px;
+  margin: 10px 0;
 }
 .card h1 {
   color: #1f3251;
   font-weight: bold;
   margin: 20px 0px;
+  max-width: 300px;
+  line-height: 1.2;
 }
 .card p {
   font-size: 15px;
   color: #68778d;
   margin: 20px 0px;
+  max-width: 300px;
+  line-height: 1.2;
 }
 .card .text {
   text-align: center;
